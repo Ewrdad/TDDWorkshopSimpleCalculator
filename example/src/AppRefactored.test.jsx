@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 
 /*-----------------------------------------------------------------------------------------------------------------------
- * ! Refactored Example Tests TDD
+ //! Refactored Example Tests TDD
  * These are some examples that can be used for TDD
  * They are written in chronological order meaning Id have to write the first test first
  *
