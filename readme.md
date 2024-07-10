@@ -56,13 +56,13 @@ There are other requirments in order to set these up but these are what you'll b
 
 These aren't essentail these are just tools I have used to write this so it may be usefull:
 
-##### **Name:** Better Comments
+### **Name:** Better Comments
 
 **Description:** Improve your code commenting by annotating with alert, informational, TODOs, and more!
 
 **VS Marketplace Link:** [https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
-##### Name: html tag wrapper
+### Name: html tag wrapper
 
 **Description:** wrap selected html tag by press ctrl+i, you can change the wrapper tag name simply too
 
