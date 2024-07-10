@@ -2,14 +2,14 @@ import App from "./App.jsx";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 
-/**-----------------------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------------------------
  * !  Example Tests TDD
  * These are some examples that can be used for TDD
  * They are written in chronological order meaning Id have to write the first test first
  *
  * To maintain the order of the tests some larger refactors have been skipped
  * To See refactored tests check AppRefactored.test.jsx
- *-----------------------------------------------------------------------------------------------------------------------**/
+ *-----------------------------------------------------------------------------------------------------------------------*/
 
 describe("App: structure tests", () => {
   it("has a header ", async () => {

@@ -2,7 +2,7 @@ import App from "./App.jsx";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
 
-/**-----------------------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------------------------
  * ! Refactored Example Tests TDD
  * These are some examples that can be used for TDD
  * They are written in chronological order meaning Id have to write the first test first
@@ -11,10 +11,14 @@ import { describe, it, expect } from "vitest";
  * To see the full journey check App.test.jsx
  *-----------------------------------------------------------------------------------------------------------------------**/
 
-//Components
+//* Common getters
+/** @example expect(inputA()) */
 const inputA = () => screen.getByPlaceholderText("Enter first number");
+/** @example expect(inputB()) */
 const inputB = () => screen.getByPlaceholderText("Enter second number");
+/** @example button().click() */
 const button = () => screen.getByRole("button", { name: "Calculate Now" });
+/** @example expect(results()) */
 const results = () => screen.getByLabelText("Results");
 
 describe("App: structure tests", () => {
