@@ -52,7 +52,7 @@ This uses the following tools:
 
 There are other requirments in order to set these up but these are what you'll be interacting with.
 
-## Reccomended Extensions
+## Recomended Extensions
 
 These aren't essentail these are just tools I have used to write this so it may be usefull:
 
