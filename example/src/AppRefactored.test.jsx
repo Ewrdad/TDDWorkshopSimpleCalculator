@@ -11,7 +11,7 @@ import { describe, it, expect } from "vitest";
  * To see the full journey check App.test.jsx
  *-----------------------------------------------------------------------------------------------------------------------**/
 
-//* Common getters
+// #region Common getters
 /** @example expect(inputA()) */
 const inputA = () => screen.getByPlaceholderText("Enter first number");
 /** @example expect(inputB()) */
@@ -20,6 +20,7 @@ const inputB = () => screen.getByPlaceholderText("Enter second number");
 const button = () => screen.getByRole("button", { name: "Calculate Now" });
 /** @example expect(results()) */
 const results = () => screen.getByLabelText("Results");
+// #endregion Common getters
 
 describe("App: structure tests", () => {
   it("has a header ", async () => {
