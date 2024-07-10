@@ -4,13 +4,24 @@ This is a simple workshop in how to develop using TDD comprising of a starting p
 
 ## Goal
 
-Using TDD develop a simple react calculator that multiplies two numbers together and displays the result
+Using TDD develop a simple react calculator that multiplies two numbers together and displays the result.
+
+The base acceptance criteria(AC) )is:
+
+- I must be able to input 2 numbers
+- I must be able to see the product of those two numbers
 
 ## Starting Point
 
 A template of a simple react project is given in `./template`
 
-to run tests use:
+Before running anything else it will work you will need to run
+
+```bash
+npm install
+```
+
+To run tests use:
 
 ```bash
 npm run test
@@ -34,9 +45,9 @@ Same commands as above for testing and running.
 
 This uses the following tools:
 
-- vite
+- Vite
 - React
-- vitetest
+- Vitetest
 - @testing-libary/react
 
 There are other requirments in order to set these up but these are what you'll be interacting with.
