@@ -19,7 +19,6 @@ function App() {
         <h1>Simple Calculator</h1>
       </div>
       <div className="card">
-        <p>Calculator here</p>
         <input
           type="number"
           placeholder="Enter first number"

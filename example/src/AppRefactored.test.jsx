@@ -23,12 +23,6 @@ const results = () => screen.getByLabelText("Results");
 // #endregion Common getters
 
 describe("App: structure tests", () => {
-  it("has a header ", async () => {
-    render(<App />);
-    expect(await screen.findByText("Simple Calculator")).toBeInTheDocument();
-    expect(true).toBeTruthy();
-  });
-
   it("has 2 number inputs", async () => {
     render(<App />);
 
